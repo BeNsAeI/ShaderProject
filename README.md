@@ -11,6 +11,7 @@ The format is as follows:
  - Tessellation Evaluation
  - Fragment
  - Compute
+
 5- Shaders are coded exclusivly in GLSL
 6- GLIB file is a GLMan compatiblity file. For more information, please refer to (http://web.engr.oregonstate.edu/~mjb/glman/)
 7- Folder is required to contain 4 screenshots (figures) describing the effect
