@@ -2,7 +2,7 @@
 This project contains a wide variety of different shaders that I have found interesting
 The format is as follows:
 - Each shader will get its own folder
-- Folders naming convention is: <A descrptiv name>-<Type of the shader>-<Version of GLSL needed>-<Author>-<Date: MM-DD-YYYY>
+- Folders naming convention is: "A descrptiv name"-"Type of the shader"-"Version of GLSL needed"-"Author"-"Date: MM-DD-YYYY"
 - each folder contains 1 shader, 1 GLIB file, 4 screenshots (figures), 1 description
 - Shaders could be of types:
 -- Vertex
