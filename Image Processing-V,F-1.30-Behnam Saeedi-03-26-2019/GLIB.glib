@@ -1,0 +1,21 @@
+##OpenGL GLIB
+Ortho -5. 5.   -5. 5.
+LookAt 0 0 2  0 0 0  0 1 0
+
+Texture2D 5 ..\\Textures\\Texture.bmp
+
+Vertex   shader.vert
+Fragment shader.frag
+Program  shader							\
+	uScenter <0. .5 1.>					\
+	uTcenter <0. .5 1.>					\
+	uDs      <0.01 .1 .5>				\
+	uDt      <0.01 .1 .5>				\
+	uDr      <0.01 .025 .5>				\
+	uMagFactor <.1 1. 25.>				\
+	uRotAngle <-3.14159 0. 3.14159>		\
+	uSharpFactor <0. 1. 5.>				\
+	uRound <false>						\
+	uTexUnit  5
+
+QuadXY .5 5.

@@ -1,0 +1,26 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 0 0 5  0 0 0  0 1 0
+
+Vertex   shader.vert
+Fragment shader.frag
+Program camo   					\
+		uKa <0. .5 1.>			\
+		uKd <0. .5 1.>			\
+		uKs <0. .125 1.>		\
+		uAd <0. .25 1.>			\
+		uBd <0. .25 1.>			\
+		uShininess <0 0.25 100> \
+		uNoiseAmp <0. 0.75 1.>	\
+		uNoiseFreq <0 0.120 10>	\
+		uColor1 {1 0.75 0 1}	\
+		uColor2 {0.5 0.25 0.0 1}\
+		uSpecularColor {}		\
+		uTime <0. 0. 100.>
+rotate 35 1 0 0
+rotate 135 0 1 0
+rotate -90 1 0 0
+scale 0.125 0.125 0.125
+
+obj ..\\object\\Tank.obj

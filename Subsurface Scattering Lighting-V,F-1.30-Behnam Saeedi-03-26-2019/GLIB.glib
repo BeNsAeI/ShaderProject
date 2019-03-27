@@ -1,0 +1,18 @@
+##OpenGL GLIB
+
+Perspective 90
+LookAt 20 20 20  0 0 0  0 1 0
+
+Vertex   shader.vert
+Fragment shader.frag
+Program shader   				\
+		uKa <0. .5 1.>			\
+		uKd <0. .05 1.>			\
+		uKs <0. .25 1.>			\
+		uS <0. .25 1.>			\
+		uColor {0.25 0.25 0.25 1.}	\
+		uSpecularColor {1. 1. 1. 1.}
+
+rotate -90 1 0 0
+rotate 180 0 0 1
+obj ..\\Object\\Tank.obj

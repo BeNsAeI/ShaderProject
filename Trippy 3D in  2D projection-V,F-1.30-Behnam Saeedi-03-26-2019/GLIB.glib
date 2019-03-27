@@ -1,0 +1,36 @@
+##OpenGL GLIB
+Perspective 90
+
+Texture2D 6  1024 1024
+
+RenderToTexture 6
+
+Background 0. 0.1 0.
+Clear
+
+Vertex   shader.vert
+Fragment shader.frag
+Program  shader									\
+	Ad <.01 .2 .5>  Bd <.01 .2 .5>				\
+	NoiseAmp <0. 0. 1.>  NoiseFreq <0. 1. 2.>	\
+	Tol <0. 0. 1.>
+	
+Teapot
+
+RenderToTexture
+
+
+Background 0. 0.0 0
+Clear
+LookAt 0 0 2.5  0 0 0  0 1 0
+
+Vertex   image.vert
+Fragment image.frag
+Program Filter2	InUnit 6				\
+			EdgeDetect <true>		\
+			TEdge <0. 0. 1.>			\
+			TSharp <-3. 1. 10.>		\
+			ResS 1024   ResT 1024
+
+Translate 0 0 0.
+QuadXY .2 2.

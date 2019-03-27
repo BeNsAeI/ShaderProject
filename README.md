@@ -3,7 +3,7 @@ This project contains a wide variety of different shaders that I have found inte
 The format is as follows:
 - Each shader will get its own folder
 - Folders naming convention is: "A descrptiv name"-"Type of the shader"-"Version of GLSL needed"-"Author"-"Date: MM-DD-YYYY"
-- each folder contains 1 shader, 1 GLIB file, 4 screenshots (figures), 1 description
+- each folder contains 1-5 shader, 1 GLIB file,1-10 screenshots (figures), 1 description
 - Shaders could be of types:
 -- Vertex
 -- Geometry
@@ -14,7 +14,6 @@ The format is as follows:
 - Shaders are coded exclusivly in GLSL
 - GLIB file is a GLMan compatiblity file. For more information, please refer to (http://web.engr.oregonstate.edu/~mjb/glman/)
 - Folder is required to contain 4 screenshots (figures) describing the effect
-- Each figure's name should describe what is happening or it needs to have a caption
 - A ".md" file called "Description.md", that describes all the effects, uniform variables and potential use cases for each shader. it must include:
 -- Title
 -- Author
